@@ -20,6 +20,29 @@ html {
   line-height: 1.4;
 }
 
+.graph-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.graph {
+    background: radial-gradient(circle at 0% 100%, rgb(247, 29, 29) 0%, rgba(227, 167, 12, 1) 30%, rgba(198, 221, 40, 1) 55%, rgba(70, 252, 69, 1) 100%);
+}
+
+.graph img {
+    position: absolute;
+    width: 8%;
+    height: 8%;
+}
+
+.y-axis-title {
+    transform: rotate(-90deg);
+    transform-origin: left center;
+    left: -20px;
+    top: 69%;
+}
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
