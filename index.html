@@ -22,9 +22,9 @@
 </head>
 <body>
 
-<div class="w-full h-full flex flex-col gap-3 items-center justify-center px-[5%]">
+<div class="w-full h-full flex flex-col gap-3 items-center justify-center px-[5%] pb-2">
 
-    <div class="w-full flex flex-row items-center justify-center py-5 px-2 gap-3">
+    <div class="w-full flex flex-row items-center justify-center pt-5 pb-1 px-2 gap-3">
         <div class="size-[150px] rounded-full flex items-center justify-center overflow-hidden">
             <div class="p-1 bg-gray-200 rounded-full overflow-hidden flex items-center justify-center">
                 <img src="images/profile/1.webp" alt="Me, smiling" class="rounded-full overflow-hidden object-cover">
@@ -32,16 +32,33 @@
         </div>
 
         <div class="flex flex-col">
-            <div class="text-5xl font-bold flex flex-col md:text-6xl md:gap-2 md:flex-row justify-center">
+            <div class="text-5xl font-bold flex flex-col md:text-6xl md:gap-2 md:flex-row justify-center max-xs:text-4xl">
                 <div>Ghislain</div>
                 <div>Demaël</div>
             </div>
-            <div class="text-3xl flex flex-col md:gap-2 md:flex-row">
+            <div class="text-3xl flex flex-col md:gap-2 md:flex-row max-xs:text-2xl">
                 <div class="max-md:hidden">Aspiring</div>
                 <div>Software Developer</div>
             </div>
         </div>
     </div>
+
+    <div class="w-full max-w-[800px] text-center flex justify-center gap-1 items-center ">
+        <a href="http://github.com/ghislaindemael" target="_blank">
+            <button class="flex items-center gap-2 p-1 px-2 border-2 border-gray-600 rounded-full bg-gray-100 hover:bg-gray-200">
+                <img src="images/icons/github.svg" class="size-7" alt="GitHub Logo">
+                <span class="text-xl font-semibold">My GitHub</span>
+            </button>
+        </a>
+        <a href="http://linkedin.com/in/demael" target="_blank">
+            <button class="flex items-center gap-2 p-1 px-2 border-2 text-blue-600 border-blue-500 rounded-full bg-blue-100 hover:bg-blue-200">
+                <img src="images/icons/linkedin.svg" class="size-7" alt="Linkedin Logo">
+                <span class="text-xl font-semibold">My LinkedIn</span>
+            </button>
+        </a>
+
+    </div>
+
 
     <div class="w-full max-w-[800px] text-center flex flex-col p-3 gap-1 justify-center bg-gray-100 rounded-xl">
 
@@ -53,13 +70,13 @@
             Computer Science as a career path. I still find marvelous the fact that you can build nearly anything
             with enough dedication. Studying at ISEP, I chose Software Development as my major, as it is undoubtedly
             the path where I can express at most my creativity. I'm more on the engineering than the designer side,
-            so I prefer simple but effective products. Even though I don't mind when it's also nice to the eyes.
+            so I prefer simple but effective products.
         </div>
 
     </div>
 
-    <div class="w-full max-w-[1000px] text-center flex flex-col gap-3 items-center">
-        <div class="font-semibold w-full max-w-[800px] text-3xl bg-gray-100 rounded-xl p-3 pt-2">
+    <div class="w-full max-w-[1000px] text-center flex flex-col gap-3 items-center  bg-gray-100 p-3 rounded-xl">
+        <div class="font-semibold w-full max-w-[800px] text-3xl">
             My projects
         </div>
 
@@ -71,7 +88,7 @@
                 <div class="text-xl font-bold">Ma Pléiade</div>
                 <div>Catalogue & Shop for the Bibliothèque de la Pléiade</div>
                 <div class="w-full flex justify-center gap-1 mt-1">
-                    <div class="font-semibold">Coming soon | </div>
+                    <div class="font-semibold">Coming soon |</div>
                     <img src="images/icons/angular.svg" class="size-6" alt="Angular logo">
                     <img src="images/icons/supabase.svg" class="size-6" alt="Supabase logo">
                 </div>
@@ -136,8 +153,8 @@
 
     </div>
 
-    <div class="w-full max-w-[800px] text-center flex flex-col gap-3 rounded-xl p-2 bg-gray-100">
-        <div class="font-semibold w-full text-3xl bg-gray-100 rounded-xl p-3 pt-2">
+    <div class="w-full max-w-[800px] text-center flex flex-col gap-3 rounded-xl p-3 bg-gray-100">
+        <div class="font-semibold w-full text-3xl bg-gray-100 rounded-xl">
             My tools
         </div>
         <div class="graph-container w-full relative flex flex-col gap-2 items-center justify-center">
@@ -156,7 +173,7 @@
                     <img src="images/icons/java.svg" class="top-[41%] left-[61%]" alt="Java logo">
                     <img src="images/icons/javascript.svg" class="top-[31%] left-[61%]" alt="Javascript logo">
                     <img src="images/icons/jetbrains.svg" class="top-[11%] left-[61%]" alt="Jetbrains logo">
-                    <img src="images/icons/python.svg" class="top-[61%] left-[61%]" alt="Python logo">
+                    <img src="images/icons/python.svg" class="top-[71%] left-[61%]" alt="Python logo">
                     <img src="images/icons/rust.svg" class="top-[31%] left-[21%]" alt="Rust logo">
                     <img src="images/icons/supabase.svg" class="top-[11%] left-[51%]" alt="Supabase logo">
                     <img src="images/icons/tailwind.svg" class="top-[21%] left-[51%]" alt="Tailwind logo">
@@ -170,8 +187,20 @@
         </div>
     </div>
 
-    <div class="w-full text-center">
-        4. Contact
+    <div class="w-full max-w-[800px] text-center flex flex-col p-3 gap-1 justify-center bg-gray-100 rounded-xl">
+        <div class="font-semibold text-3xl">
+            Contact
+        </div>
+        Interested by my skills ? Send me an email at:
+        <a href="mailto:ghislain.demael@gmail.com" class="text-blue-500 underline">
+            ghislain.demael@gmail.com
+        </a>
+
+
+    </div>
+
+    <div class="w-full text-center text-xs text-gray-500">
+        Website made with HTML & Tailwind, with a touch of classic CSS.
     </div>
 
 </div>
